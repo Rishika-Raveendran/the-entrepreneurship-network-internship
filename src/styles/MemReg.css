@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+
+.mem_head {
+  font-size: 3rem;
+  font-family: "New Tegomin", serif;
+  letter-spacing: 0.5rem;
+  color: rgb(255, 89, 55);
+}
+.intro {
+  background-color: rgb(79, 233, 220);
+  color: #e21c21;
+  font-weight: 500;
+  font-size: 1.75rem;
+  font-family: "noticia text", serif;
+  text-align: left;
+}
+.perks {
+  background-color: rgb(245, 151, 122);
+  overflow-x: hidden;
+}
+.perk_head {
+  font-size: 5rem;
+  font-family: "Questrial", sans-serif;
+  font-weight: 600;
+  color: rgb(97, 75, 0);
+  text-align: right;
+  margin-top: 2rem;
+}
+.perk_list {
+  font-size: 2rem;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: rgb(97, 75, 0);
+}
+
+.mem_form {
+  background-color: black;
+}
+.sub_sec {
+  background-color: white;
+  text-align: left;
+  margin-top: 2rem;
+  font-family: "Questrial", sans-serif;
+  color: rgb(110, 109, 109);
+}
+.memform_head {
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgb(110, 109, 109);
+  margin-top: 2rem;
+}
+.head-tag {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.lab {
+  font-size: 1rem;
+  font-weight: 800;
+}
+.qrscan {
+  background-color: black;
+  font-family: "Noticia", serif;
+  font-size: 2rem;
+  color: white;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1030px) {
+  .mem_head {
+    font-size: 2rem;
+  }
+  .code {
+    height: 60vh;
+    width: 60vw;
+  }
+}

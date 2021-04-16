@@ -1,0 +1,18 @@
+.red_band {
+  background-color: rgb(233, 49, 49);
+  height: 4rem;
+  font-family: "Questrial", sans-serif;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.alumni {
+  margin-bottom: 3rem;
+}
+.al_name {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Questrial", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}

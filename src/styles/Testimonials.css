@@ -1,0 +1,41 @@
+.testimonial_sep {
+  font-size: 3rem;
+  color: rgb(218, 7, 60);
+  border-bottom: 3px solid black;
+  margin-bottom: 2rem;
+  letter-spacing: 0.25rem;
+}
+.caro_sep {
+  position: absolute;
+  top: 70vh;
+  left: 0;
+  margin-bottom: 0;
+  min-height: 60vh;
+}
+.carousel_sep {
+  min-height: 60vh;
+}
+.car-con {
+  font-family: "Noticia", serif;
+  font-size: 2rem;
+  margin-top: 3rem;
+  color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+@media only screen and (max-width: 1030px) {
+  .caro {
+    top: 50vh;
+    left: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .caro {
+    top: 120vh;
+    left: 0;
+  }
+  .car-content {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,66 @@
+.cert_col {
+  margin-bottom: -30rem;
+  margin-top: 3rem;
+  min-height: 300vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.5rem;
+  opacity: 0.9;
+  overflow-y: hidden;
+}
+
+.bk_img {
+  width: 100%;
+  min-height: 300vh;
+  opacity: 0.4;
+}
+.cert_details {
+  color: black;
+
+  transform: translateY(-400vh);
+  margin-bottom: -150vh;
+}
+.cert_head {
+  font-family: "Noticia", serif;
+  font-size: 3.5rem;
+  color: purple;
+}
+.cert_content {
+  font-family: "Questrial", sans-serif;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+.sub-form {
+  font-family: "Noticia", serif;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.sub_head {
+  font-family: "Questrial", sans-serif;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.sub_button {
+  font-family: "Questrial", sans-serif;
+  border-radius: 0;
+  font-size: 1.3rem;
+  background-color: rgb(185, 13, 13);
+  color: black;
+}
+
+#qrcode {
+  margin-top: 2rem;
+}
+@media only screen and (max-width: 1030px) {
+  .cert_details {
+    transform: translateY(-300vh);
+  }
+  .cert_col {
+    margin-bottom: 0;
+  }
+
+  #qrcode {
+    height: 30vh;
+    width: 30vw;
+  }
+}

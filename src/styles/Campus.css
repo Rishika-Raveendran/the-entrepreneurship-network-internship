@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Libre+Baskerville&display=swap");
+.camp_amb {
+  background-color: black;
+  min-height: 80vh;
+}
+.amb_head {
+  margin-top: 2rem;
+  font-size: 4rem;
+  color: #4bd1a0;
+  font-family: "Kaushan Script", cursive;
+}
+.green {
+  text-align: left;
+  margin-top: 5rem;
+  color: green;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.camp {
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.button-row {
+  margin-top: 7rem;
+}
+.skillb,
+.rewb {
+  background-color: rgb(57, 241, 241);
+  padding: 1rem;
+  color: brown;
+  font-weight: 500;
+  margin-right: 6rem;
+  margin-left: 3rem;
+  box-shadow: 4px 4px 0px 0px rgb(113, 236, 236);
+}
+.skillb:hover,
+.rewb:hover {
+  box-shadow: 4px 0px 1px 0px rgb(113, 236, 236);
+  text-decoration: none;
+}
+.apply {
+  margin-top: 3rem;
+}
+.appb {
+  background-color: red;
+  color: black;
+  font-weight: 700;
+  border-radius: 25px;
+}
+.skill_row {
+  margin-top: 3rem;
+  text-align: left;
+  font-family: "Questrial", sans-serif;
+  font-size: 1.5rem;
+  line-height: 6rem;
+  color: grey;
+  min-height: 80vh;
+}
+.heading {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  color: black;
+}
+.skill_bck {
+  background-image: url("https://static.wixstatic.com/media/c4ea0b_e2498094d8224f50b00951605631d105~mv2.jpg/v1/fill/w_695,h_630,al_c,q_85/c4ea0b_e2498094d8224f50b00951605631d105~mv2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.rew_row {
+  text-align: left;
+  font-family: "Questrial", sans-serif;
+  font-size: 1.5rem;
+  line-height: 6rem;
+  color: rgb(97, 75, 0);
+  min-height: 80vh;
+}
+.rew_bck {
+  background-image: url("https://static.wixstatic.com/media/c4ea0b_77ec042294404dc3bf273c8c840398df~mv2.png/v1/fill/w_611,h_591,al_c,q_90,usm_0.66_1.00_0.01/c4ea0b_77ec042294404dc3bf273c8c840398df~mv2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.r_head {
+  font-family: "Kaushan Script", cursive;
+  color: #bc9b5d;
+  margin-top: 3rem;
+  font-size: 4rem;
+  text-align: center;
+}
+.camp_form {
+  background-color: black;
+}
+.sub_sec {
+  background-color: white;
+  text-align: left;
+  margin-top: 2rem;
+  font-family: "Questrial", sans-serif;
+  color: rgb(110, 109, 109);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+.campform_head {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #3e6680;
+
+  margin-top: 2rem;
+  color: #3e6680;
+}
+.head-tag {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: #3e6680;
+}
+.lab {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #3e6680;
+}

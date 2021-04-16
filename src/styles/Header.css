@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+.head {
+  font-family: "Questrial", sans-serif;
+  width: 100vw;
+  padding-top: 5vh;
+  padding-left: 1vw;
+}
+
+.name {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #e81038;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 0.15rem;
+}
+.letterI {
+  color: black;
+}
+.buttons-row {
+  margin-bottom: 5vh;
+}
+.cart {
+  background-color: rgb(173, 16, 16);
+  border-radius: 25px;
+  border: none;
+}
+.cart:hover {
+  background-color: rgb(12, 12, 87);
+}
+.login-button {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 1px 1px 3px 1px black;
+}
+.searchI {
+  border: 0;
+  outline: none;
+  border-radius: 25px;
+  height: 6vh;
+  background-color: black;
+}
+.searchII {
+  border: 0;
+  outline: none;
+  border-radius: 25px;
+  background: transparent;
+}
+.searchI:hover,
+.searchII:hover {
+  background-color: rgb(231, 133, 133);
+}
+
+.searchII:focus {
+  border: 0;
+  outline: none;
+  border-radius: 25px;
+  box-shadow: none;
+  background-color: transparent;
+}
+.nav-row {
+  margin-top: 5vh;
+}
+.navlink {
+  font-size: larger;
+  margin-bottom: 3vh;
+  border-right: 1px solid black;
+}
+.l {
+  color: black;
+}
+.l:hover {
+  text-decoration: none;
+  color: black;
+}
+.active {
+  color: rgb(184, 23, 76);
+}
+.dropdown-item {
+  height: 5vh;
+  margin-top: 0;
+
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding: 0;
+}
+.dropdown-toggle {
+  border: none;
+  background-color: white;
+  color: black;
+}
+.dropdown-toggle:hover {
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .name {
+    text-align: center;
+  }
+}
